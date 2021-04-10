@@ -2,25 +2,22 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">pgsadmin.github.io</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <h1 class="title">Pers Gas Service</h1>
+      <p>
+        <span aria-label="telefon nummer">
+          <font-awesome-icon icon="phone" />
+          00 00 00 00
+        </span>
+        |
+        <span aria-label="email">
+          <font-awesome-icon icon="envelope" />
+          test@email.foo
+        </span>
+      </p>
+      <p>
+        CVR:
+        <span aria-label="cvr nummber">00000000</span>
+      </p>
     </div>
   </div>
 </template>
