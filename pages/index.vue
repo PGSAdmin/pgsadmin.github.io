@@ -6,12 +6,12 @@
       <p>
         <span aria-label="telefon nummer">
           <font-awesome-icon icon="phone" />
-          00 00 00 00
+          {{ phone }}
         </span>
         |
         <span aria-label="email">
           <font-awesome-icon icon="envelope" />
-          test@email.foo
+          {{ email }}
         </span>
       </p>
       <p>
@@ -25,7 +25,14 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  data() {
+    return {
+      phone: this.$store.state.contact.phone,
+      email: this.$store.state.contact.email,
+    }
+  },
+})
 </script>
 
 <style>
