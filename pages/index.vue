@@ -6,7 +6,7 @@
       </b-col>
     </b-row>
     <b-row id="abonnement">
-      <b-col>
+      <b-col class="d-flex align-items-stretch">
         <subscription name="A-abonnement" price="1.600,00">
           <p>
             Hovedeftersyn hvert 2. år af gasbrænder med tilhørende automatik,
@@ -20,7 +20,7 @@
           <p>Abonnementet omfatter desuden rensning af kedlen.</p>
         </subscription>
       </b-col>
-      <b-col>
+      <b-col class="d-flex align-items-stretch">
         <subscription name="B-abonnement" price="2.325,00">
           <p>
             Hovedeftersyn af gasbrænder og rensning af kedlen, som ved
@@ -50,10 +50,6 @@ export default Vue.extend({})
 <style>
 .app-container {
   margin: 5em auto;
-
-  /* min-height: 100vh;
-  display: flex;
-  justify-content: center; */
 }
 
 .title {
