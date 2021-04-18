@@ -1,23 +1,7 @@
 <template>
-  <div class="container">
+  <div class="app-container">
     <div>
-      <Logo />
       <h1 class="title">Pers Gas Service</h1>
-      <p>
-        <span aria-label="telefon nummer">
-          <font-awesome-icon icon="phone" />
-          {{ phone }}
-        </span>
-        |
-        <span aria-label="email">
-          <font-awesome-icon icon="envelope" />
-          {{ email }}
-        </span>
-      </p>
-      <p>
-        CVR:
-        <span aria-label="cvr nummber">00000000</span>
-      </p>
     </div>
   </div>
 </template>
@@ -25,18 +9,11 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({
-  data() {
-    return {
-      phone: this.$store.state.contact.phone,
-      email: this.$store.state.contact.email,
-    }
-  },
-})
+export default Vue.extend({})
 </script>
 
 <style>
-.container {
+.app-container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -46,12 +23,11 @@ export default Vue.extend({
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #0a4130;
   letter-spacing: 1px;
 }
 

@@ -7,10 +7,9 @@ interface Contact {
 
 export const state = () => ({
   contact: {
-    phone: '+45 00 00 00 00',
-    email: 'foo@bar.baz',
+    phone: '+45 24 67 37 16',
   } as Contact,
-  cvr: '00000000',
+  cvr: '30897099',
 })
 
 export type RootState = ReturnType<typeof state>
