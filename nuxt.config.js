@@ -45,8 +45,4 @@ export default {
       solid: ['faPhone', 'faEnvelope'],
     },
   },
-
-  router: {
-    base: '/pgsadmin.github.io',
-  },
 }
