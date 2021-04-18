@@ -21,6 +21,8 @@ export default Vue.extend({
 
 <style scoped>
 footer {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-align: center;
   background-color: #0a4130;
   color: whitesmoke;

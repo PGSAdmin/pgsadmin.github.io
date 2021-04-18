@@ -1,5 +1,5 @@
 <template>
-  <b-card :title="name" :sub-title="priceDescription">
+  <b-card :title="name" :sub-title="priceDescription" class="subscription">
     <slot />
   </b-card>
 </template>
@@ -27,3 +27,9 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped>
+.subscription {
+  background-color: #0a41302a;
+}
+</style>
