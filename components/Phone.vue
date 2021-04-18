@@ -11,7 +11,7 @@ export default Vue.extend({
   name: 'Phone',
   data() {
     return {
-      phone: this.$store.state.contact.phone,
+      phone: this.$store.state.phone,
     }
   },
 })

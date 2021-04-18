@@ -1,19 +1,7 @@
-import { GetterTree } from 'vuex'
-
-interface Contact {
-  phone: string
-  email: string
-}
-
 export const state = () => ({
-  contact: {
-    phone: '+45 24 67 37 16',
-  } as Contact,
+  phone: '24 67 37 16',
   cvr: '30897099',
+  address: 'Stjernevej 2a, 3100 Hornbæk',
 })
 
 export type RootState = ReturnType<typeof state>
-
-export const getters: GetterTree<RootState, RootState> = {
-  contact: (state) => state.contact,
-}

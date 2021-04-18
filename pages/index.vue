@@ -1,9 +1,44 @@
 <template>
-  <div class="app-container">
-    <div>
-      <h1 class="title">Pers Gas Service</h1>
-    </div>
-  </div>
+  <b-container class="app-container">
+    <b-row>
+      <b-col>
+        <Intro />
+      </b-col>
+    </b-row>
+    <b-row id="abonnement">
+      <b-col>
+        <subscription name="A-abonnement" price="1.600,00">
+          <p>
+            Hovedeftersyn hvert 2. år af gasbrænder med tilhørende automatik,
+            rensning, kontrol og justering.
+          </p>
+          <p>Reservedele debiteres til dagspriser.</p>
+          <p>
+            Brænder pakningen skal som hovedregel altid skiftes ved
+            serviceeftersyn.
+          </p>
+          <p>Abonnementet omfatter desuden rensning af kedlen.</p>
+        </subscription>
+      </b-col>
+      <b-col>
+        <subscription name="B-abonnement" price="2.325,00">
+          <p>
+            Hovedeftersyn af gasbrænder og rensning af kedlen, som ved
+            A-abonnement.
+          </p>
+          <p>
+            Afhjælpning af driftsforstyrrelser indenfor den normale arbejdstid.
+            Dog i perioden 1. oktober til 30. april alle ugens dage fra kl. 8.00
+            – 20.00.
+          </p>
+          <p>
+            Ved tilkald udenfor de anførte tidspunkter debiteres arbejdsløn til
+            dagspriser.
+          </p>
+        </subscription>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script lang="ts">
@@ -14,12 +49,11 @@ export default Vue.extend({})
 
 <style>
 .app-container {
-  margin: 0 auto;
-  min-height: 100vh;
+  margin: 5em auto;
+
+  /* min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: center; */
 }
 
 .title {
