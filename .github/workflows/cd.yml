@@ -34,3 +34,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: master
+          force_orphan: true      # don't keep history of publish commits on branch - only keep latest
+          commit_message: 'Automated CD release'
+          user_name: 'github-actions[bot]'                            # display bot author instead of actual
+          user_email: 'github-actions[bot]@users.noreply.github.com'  # display bot author instead of actual
