@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Pers Gasservice - Det’ mig med bindestregen',
+    description: 'Pers Gasservice - Det’ mig med bindestregen',
     htmlAttrs: {
       lang: 'da',
     },
@@ -14,12 +14,39 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Gasservice i Nordsjælland',
+        content:
+          'Gasservice i Nordsjælland. Er uheldet ude, står vi klar til at efterse og reparere dit gasfyr med kort varsel.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'gasservice, gasfyr, nordsjælland, hornbæk',
+        content: 'gasservice, gasfyr, vvs, nordsjælland, hornbæk',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Pers Gasservice - Det’ mig med bindestregen',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Gasservice i Nordsjælland. Er uheldet ude, står vi klar til at efterse og reparere dit gasfyr med kort varsel.',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://gas-service.dk',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://gas-service.dk/opengraph_logo.png',
+      },
+      {
+        hid: 'og:image:url',
+        property: 'og:image:url',
+        content: 'https://gas-service.dk/opengraph_logo.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
