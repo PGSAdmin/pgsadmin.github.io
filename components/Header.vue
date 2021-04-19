@@ -20,6 +20,7 @@ export default Vue.extend({
   background-color: #0a4130;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
+  box-shadow: 0 2px #0000004f;
 }
 .logo {
   max-height: 5em;
