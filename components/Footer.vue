@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <span style="margin-right: 0.3em">CVR {{ cvr }}</span>
-    &bull;
-    <span style="margin-left: 0.3em">{{ address }}</span>
+    Pers Gasservice
+    <span style="margin: 0.3em 0">&bullet;</span>
+    CVR {{ cvr }}
   </footer>
 </template>
 
@@ -10,10 +10,10 @@
 import Vue from 'vue'
 export default Vue.extend({
   name: 'Footer',
+
   data() {
     return {
       cvr: this.$store.state.cvr,
-      address: this.$store.state.address,
     }
   },
 })
