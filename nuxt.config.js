@@ -4,14 +4,23 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'pgsadmin.github.io',
+    title: 'Pers Gasservice - Det’ mig med bindestregen',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'da',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Gasservice i Nordsjælland',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'gasservice, gasfyr, nordsjælland, hornbæk',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
