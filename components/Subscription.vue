@@ -28,8 +28,9 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .subscription {
-  background-color: #0a41302a;
+  // background-color: #0a41302a;
+  background-color: #51cb6131;
 }
 </style>

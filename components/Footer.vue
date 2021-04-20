@@ -19,14 +19,13 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 footer {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-align: center;
-  background-color: #0a4130;
-  color: whitesmoke;
+  background-color: $primary-color;
+  color: $primary-color-text;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
 }
 </style>
