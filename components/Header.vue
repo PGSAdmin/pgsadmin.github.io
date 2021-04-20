@@ -15,11 +15,10 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .header {
-  background-color: #0a4130;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  color: $primary-color-text;
+  background-color: $primary-color;
   box-shadow: 0 2px #0000004f;
 }
 .logo {

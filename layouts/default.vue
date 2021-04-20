@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-layout">
     <Header />
     <Nuxt />
     <Footer />
@@ -23,6 +23,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+.main-layout {
+  background-color: rgb(202, 206, 202);
 }
 
 *,

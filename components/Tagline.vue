@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="tagline">Pers Gasservice - Det’ mig med bindestregen</div>
-    <div class="tagline">www.gas-service.dk</div>
+    <h4 class="tagline">Pers Gasservice - Det’ mig med bindestregen</h4>
+    <h5 class="tagline">www.gas-service.dk</h5>
   </div>
 </template>
 
@@ -11,9 +11,3 @@ export default Vue.extend({
   name: 'Tagline',
 })
 </script>
-
-<style scoped>
-.tagline {
-  color: whitesmoke;
-}
-</style>
