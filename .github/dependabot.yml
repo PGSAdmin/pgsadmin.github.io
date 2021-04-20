@@ -4,8 +4,9 @@ updates:
 - package-ecosystem: npm
   directory: '/'
   schedule:
-    interval: daily
-    time: '00:00'
+    interval: weekly
+    day: sunday
+    time: 00:00
   open-pull-requests-limit: 10
   reviewers:
     - denday04
@@ -19,8 +20,9 @@ updates:
 - package-ecosystem: github-actions
   directory: '/'
   schedule:
-    interval: daily
-    time: '00:00'
+    interval: weekly
+    day: sunday
+    time: 00:00
   open-pull-requests-limit: 10
   reviewers:
     - denday04
