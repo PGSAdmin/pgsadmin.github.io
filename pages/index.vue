@@ -2,7 +2,7 @@
   <b-container class="app-container">
     <b-row>
       <b-col>
-        <Intro />
+        <Intro style="padding-left: 0; padding-right: 0" />
       </b-col>
     </b-row>
     <b-row id="abonnement">
@@ -37,6 +37,9 @@
           </p>
         </subscription>
       </b-col>
+    </b-row>
+    <b-row style="padding-top: 2em">
+      <Partners />
     </b-row>
   </b-container>
 </template>
