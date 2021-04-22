@@ -3,23 +3,27 @@
     <b-row>
       <b-col>
         <b-jumbotron class="intro-box">
-          <template #header> Service af dit gasfyr fra 1.600 kr. </template>
+          <template #header>Service af dit gasfyr fra 1.600 kr.</template>
           <template #lead>
             Ring på <a :href="phoneLink">{{ phone }}</a> &bullet; Vi kører
             lokalt i Nordsjælland &bullet; Priserne gælder
             <strong>kun</strong> i Nordsjælland
           </template>
           <b-row>
-            <b-col md="6">
-              <b-card-img
-                src="/img/boilers/bosch_double_white.jpg"
-                alt="En Bosch double kedel"
-                class="rounded-0"
-              ></b-card-img>
+            <b-col>
+              <hr class="my-4 intro-divider" />
             </b-col>
-            <b-col md="6">
-              <b-card-body>
-                <b-card-text>
+          </b-row>
+          <b-row>
+            <b-col>
+              <b-card
+                img-src="/img/boilers/whbk-transparent.png"
+                img-alt="Et snitbillede af et WHBK gasfyr"
+                img-left
+                img-height="200"
+                class="md-4 boiler"
+              >
+                <b-card-text class="md-4">
                   <p>
                     Velkommen og tak for at du besøger Pers Gasservice online.
                   </p>
@@ -30,12 +34,23 @@
                     har gaskedler været mit fokuspunkt.
                   </p>
                 </b-card-text>
-              </b-card-body>
+              </b-card>
             </b-col>
           </b-row>
           <b-row>
-            <b-col md="6">
-              <b-card-body>
+            <b-col>
+              <hr class="my-4 intro-divider" />
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <b-card
+                img-src="/img/boilers/bosch-transparent.png"
+                img-alt="En Bosch double kedel"
+                img-right
+                img-height="200"
+                class="md-6 boiler"
+              >
                 <b-card-text>
                   <p>
                     Er uheldet ude, står vi klar til at efterse og reparere dit
@@ -46,14 +61,7 @@
                     Spar endnu mere med et <a href="#abonnement">abonnement</a>.
                   </p>
                 </b-card-text>
-              </b-card-body>
-            </b-col>
-            <b-col md="6">
-              <b-card-img
-                src="/img/boilers/whbk-snitbillede.jpg"
-                alt="Et snitbillede af en WHBK kedel"
-                class="rounded-0"
-              ></b-card-img>
+              </b-card>
             </b-col>
           </b-row>
         </b-jumbotron>
@@ -90,5 +98,9 @@ export default Vue.extend({
 }
 .intro-divider {
   border-top-color: #0a4130;
+}
+.boiler {
+  background-color: transparent;
+  border: none;
 }
 </style>
