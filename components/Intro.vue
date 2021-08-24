@@ -3,7 +3,7 @@
     <b-row>
       <b-col>
         <b-jumbotron class="intro-box">
-          <template #header>Service af dit gasfyr fra 1.600 kr.</template>
+          <template #header>Service af dit gasfyr</template>
           <template #lead>
             Ring på <a :href="phoneLink">{{ phone }}</a> &bullet; Vi kører
             lokalt i Nordsjælland &bullet; Priserne gælder
