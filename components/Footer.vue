@@ -1,6 +1,6 @@
 <template>
   <footer>
-    Pers Gasservice
+    Pers Gasservice ApS
     <span style="margin: 0.3em 0">&bullet;</span>
     CVR {{ cvr }}
   </footer>

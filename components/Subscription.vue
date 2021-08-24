@@ -1,6 +1,15 @@
 <template>
   <b-card :title="name" :sub-title="priceDescription" class="subscription">
     <slot />
+    <p>
+      Se
+      <a
+        href="/Betingelser-for-serviceabonnement.pdf"
+        target="_blank"
+        title="Åben abonnementsbetingelser i en ny fane"
+        >abonnementsbetingelser</a
+      >.
+    </p>
   </b-card>
 </template>
 
@@ -16,13 +25,15 @@ export default Vue.extend({
     } as PropOptions<String>,
     price: {
       type: String,
-      required: true,
+      required: false,
+      default: '',
     } as PropOptions<String>,
   },
 
   computed: {
     priceDescription(): string {
-      return `Pris: ${this.price} kr. inkl. Moms`
+      if (this.price) return `Pris pr. år: ${this.price} kr. inkl. Moms`
+      else return ''
     },
   },
 })
