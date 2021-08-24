@@ -7,10 +7,10 @@
     </b-row>
     <b-row id="abonnement">
       <b-col class="d-flex align-items-stretch">
-        <subscription name="A-abonnement" price="1.600,00">
+        <subscription name="A-abonnement">
           <p>
-            Hovedeftersyn hvert 2. år af gasbrænder med tilhørende automatik,
-            rensning, kontrol og justering.
+            Hovedeftersyn af gasbrænder med tilhørende automatik, rensning,
+            kontrol, økonomiprøve og justering.
           </p>
           <p>Reservedele debiteres til dagspriser.</p>
           <p>
@@ -18,10 +18,25 @@
             serviceeftersyn.
           </p>
           <p>Abonnementet omfatter desuden rensning af kedlen.</p>
+          <div>
+            <strong>Priser</strong>
+            <p>
+              <u>1-årigt abonnement</u><br />
+              <span style="padding-left: 1em">Hovedeftersyn hvert år</span
+              ><br />
+              <span style="padding-left: 1em">1.600,00 kr. pr. år</span>
+            </p>
+            <p>
+              <u>2-årigt abonnement</u><br />
+              <span style="padding-left: 1em">Hovedeftersyn hvert 2. år</span
+              ><br />
+              <span style="padding-left: 1em">900,00 kr. pr. år</span><br />
+            </p>
+          </div>
         </subscription>
       </b-col>
       <b-col class="d-flex align-items-stretch">
-        <subscription name="B-abonnement" price="2.325,00">
+        <subscription name="B-abonnement">
           <p>
             Hovedeftersyn af gasbrænder og rensning af kedlen, som ved
             A-abonnement.
@@ -35,7 +50,39 @@
             Ved tilkald udenfor de anførte tidspunkter debiteres arbejdsløn til
             dagspriser.
           </p>
+          <div>
+            <strong>Priser</strong>
+            <p>
+              <u>1-årigt abonnement</u><br />
+              <span style="padding-left: 1em">Hovedeftersyn hvert år</span
+              ><br />
+              <span style="padding-left: 1em">2.100,00 kr. pr. år</span>
+            </p>
+            <p>
+              <u>2-årigt abonnement</u><br />
+              <span style="padding-left: 1em">Hovedeftersyn hvert 2. år</span
+              ><br />
+              <span style="padding-left: 1em">1.400,00 kr. pr. år</span>
+            </p>
+          </div>
         </subscription>
+      </b-col>
+    </b-row>
+    <b-row style="padding-top: 2em">
+      <b-col>
+        <b-card
+          title="Abonnement Rabatter"
+          class="subscription-savings text-center"
+        >
+          <p>
+            Du får rabat ved betaling hvert andet 2. år ved 2-årigt abonnement.
+            <br />
+            <strong
+              >A-abonnement Pris: 1.600,00 kr. (for 2 år) &bullet; B-abonnement
+              Pris: 2.400,00 kr. (for 2 år)</strong
+            >
+          </p>
+        </b-card>
       </b-col>
     </b-row>
     <b-row style="padding-top: 2em">
@@ -50,7 +97,7 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
+<style lang="scss">
 .app-container {
   margin: 5em auto;
 }
@@ -74,5 +121,9 @@ export default Vue.extend({})
 
 .links {
   padding-top: 15px;
+}
+
+.subscription-savings {
+  background-color: $primary-color-light;
 }
 </style>

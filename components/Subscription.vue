@@ -25,13 +25,15 @@ export default Vue.extend({
     } as PropOptions<String>,
     price: {
       type: String,
-      required: true,
+      required: false,
+      default: '',
     } as PropOptions<String>,
   },
 
   computed: {
     priceDescription(): string {
-      return `Pris: ${this.price} kr. inkl. Moms`
+      if (this.price) return `Pris pr. år: ${this.price} kr. inkl. Moms`
+      else return ''
     },
   },
 })
