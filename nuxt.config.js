@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    description: 'Pers Gasservice - Det’ mig med bindestregen',
+    description: "Per's Gas-service - Det’ mig med bindestregen",
     htmlAttrs: {
       lang: 'da',
     },
@@ -25,7 +25,7 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Pers Gasservice - Det’ mig med bindestregen',
+        content: "Per's Gas-service - Det’ mig med bindestregen",
       },
       {
         hid: 'og:description',
