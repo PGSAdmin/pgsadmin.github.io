@@ -1,6 +1,15 @@
 <template>
   <b-card :title="name" :sub-title="priceDescription" class="subscription">
     <slot />
+    <p>
+      Se
+      <a
+        href="/Betingelser-for-serviceabonnement.pdf"
+        target="_blank"
+        title="Åben abonnementsbetingelser i en ny fane"
+        >abonnementsbetingelser</a
+      >.
+    </p>
   </b-card>
 </template>
 
