@@ -25,10 +25,10 @@
               >
                 <b-card-text class="md-4">
                   <p>
-                    Velkommen og tak for at du besøger Pers Gasservice online.
+                    Velkommen og tak for at du besøger Per's Gas-service online.
                   </p>
 
-                  <p>Jeg hedder Per og har Pers Gasservice.</p>
+                  <p>Jeg hedder Per og har Per's Gas-service.</p>
                   <p>
                     Jeg kom i lære midt i de glade 80'er, og de sidste mange år
                     har gaskedler været mit fokuspunkt.
