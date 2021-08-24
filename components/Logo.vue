@@ -1,3 +1,3 @@
 <template>
-  <img src="/logo.png" alt="Pers Gasservice logo" />
+  <img src="/logo-text.png" alt="Pers Gasservice logo" />
 </template>
