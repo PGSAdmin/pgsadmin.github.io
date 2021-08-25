@@ -20,7 +20,8 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'gasservice, gasfyr, vvs, nordsjælland, hornbæk',
+        content:
+          'gasservice, gas-service, gasfyr, vvs, nordsjælland, per, hornbæk',
       },
       {
         hid: 'og:title',
